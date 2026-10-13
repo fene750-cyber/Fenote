@@ -1,0 +1,6 @@
+{
+  "name": "Fenote — Elegant Note-Taking Workspace",
+  "description": "A modern, responsive, and beautiful note-taking application with rich text formatting, categories, pinning, auto-save, and dark/light mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="50%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="tip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="eraser" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+
+  <!-- App Rounded Squircle Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Notebook Cover (Kouvèti) -->
+  <rect x="84" y="74" width="280" height="364" rx="36" fill="url(#cover)" stroke="#ffffff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Spine Line -->
+  <line x1="148" y1="74" x2="148" y2="438" stroke="#ffffff" stroke-width="18" stroke-dasharray="14 18" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Pages Ruled Lines -->
+  <line x1="196" y1="156" x2="296" y2="156" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.85"/>
+  <line x1="196" y1="216" x2="296" y2="216" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.85"/>
+  <line x1="196" y1="276" x2="260" y2="276" stroke="#ffffff" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Diagonal Slanted Pencil (Kreyon) -->
+  <g transform="rotate(-38 340 280)">
+    <!-- Eraser -->
+    <rect x="312" y="90" width="56" height="38" rx="14" fill="url(#eraser)"/>
+    <!-- Ferrule -->
+    <rect x="312" y="128" width="56" height="20" fill="#cbd5e1"/>
+    <!-- Wooden Body -->
+    <rect x="312" y="148" width="56" height="150" fill="url(#wood)" stroke="#d97706" stroke-width="4"/>
+    <!-- Sharpened Lead Shoulder -->
+    <polygon points="312,298 368,298 340,364" fill="url(#tip)" stroke="#d97706" stroke-width="4"/>
+    <!-- Graphite Lead Tip -->
+    <polygon points="331,342 349,342 340,364" fill="#0f172a"/>
+  </g>
+</svg>
